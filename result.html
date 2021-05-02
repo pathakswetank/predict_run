@@ -1,0 +1,12 @@
+<!doctype html> 
+
+<html> 
+   <body>
+   	{% for key , value in response.items() %}
+   	<table>
+   		<th> {{ key }} </th>
+   		<td> {{ value}} </td>
+   	</table>
+   	{% endfor %}
+   </body> 
+</html> 
